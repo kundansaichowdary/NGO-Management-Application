@@ -1,0 +1,79 @@
+*{ 
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #423575;
+  }
+  
+  .events .box-container{
+      padding: 20px;
+      display: grid;
+      background: rgb(199, 196, 201);
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+      gap: 1.5rem;
+  }
+
+  .events .box-container .box{
+      padding: 2 rem 0;
+      background: #423575;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+      text-align: center;
+  }
+
+  .events .box-container .box:hover{
+      transform: scale(1.01)
+  }
+
+  .events .box-container .box .title{
+      background: #423575;
+      color: #fff;
+      padding: 1rem;
+      font-size: 1rem;
+  }
+  
+  .events .box-container .box .hashtag{
+      color: #000000;
+      padding-top: 0.5rem;
+      font-size: 1rem;
+  }
+
+  .events .box-container .box ul{
+      list-style-type: disc;
+      padding: 0.5rem 0;
+  }
+
+  .events .box-container .box ul li{
+    font-size: 1rem;
+    color: #ff3400;
+    padding: 0.5rem 0;
+}
+
+.events .box-container .box .btn{
+    margin: 40px 0 70px 0;
+    background: #000000;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.events .box-container .box a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.flexBox{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.logo{
+padding: 0px;
+}

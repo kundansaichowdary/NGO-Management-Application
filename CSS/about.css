@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #624cab;
+    text-align: center;
+
+}
+h2{
+    color:#624cab;
+    font-size: 26px;
+    text-align: center;
+    
+}
+h3{
+    color:#624cab;
+    font-size: 26px;
+    text-align: center;
+
+}
+h4{
+    color:#624cab;
+    font-size: 26px;
+    text-align: center;
+}
+h5{
+    color:#624cab;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px 0px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    }
+    
+img{
+    width: auto;
+}
+.displayImg {
+    object-fit: cover;
+    height: 600px;
+    width: 99vw;
+    }

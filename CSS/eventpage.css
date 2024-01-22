@@ -1,0 +1,36 @@
+.EventImg{
+    width: 600px; 
+    height: 400px;
+    margin: 20px 10px 20px 50px;
+}
+#IC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.details{
+    
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    margin: 12px 0px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.regLink{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.EImg{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}

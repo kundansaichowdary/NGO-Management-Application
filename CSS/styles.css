@@ -1,0 +1,208 @@
+/* COLOR PALETTE */
+:root {
+  --color-primary: #624cab;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+}
+
+/* HOME PAGE */
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+a {
+  color: #1b0760;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.Nav-Bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+.DB {
+  background-color: var(--color-accent);
+  font-size: medium;
+  width: auto;
+  height: auto;
+}
+.in-button {
+  color: white;
+}
+.logo {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 40px;
+  width: 200px;
+  object-fit: cover;
+}
+.displayImg {
+  object-fit: cover;
+  height: 600px;
+  width: 99vw;
+}
+.displayImg2 {
+  height: 750px;
+  width: 97vw;
+  margin-top: 10px;
+  }
+  .matter{
+    color: #1b0760;
+    font-weight: bold;
+    text-align: center;
+    font-size:x-large;
+  }
+
+
+/* REGISTRATION PAGE */
+
+.reg-img {
+  width: 550px;
+  height: auto;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.space {
+  height: 20px;
+}
+input,
+textarea {
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  width: 500px;
+  outline: 0px;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid var(--color-primary);
+}
+button {
+  background-color: var(--color-accent);
+  font-size: larger;
+  border-radius: 5px;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  color: white;
+  margin: 0px 10px 10px 0px;
+  border: 0;
+}
+button:hover {
+  background-color: var(--color-primary);
+}
+.radio {
+  width: auto;
+}
+/* FOOTER PART */
+.contactGrid {
+  display: grid;
+  grid-template-rows: repeat(2, 170px);
+  grid-template-columns: repeat(2, 300px);
+}
+.contactBox {
+  background-color: var(--color-primary);
+  color: white;
+  border: 2px solid white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  margin: 0px;
+}
+.contactInfo,
+.lastPart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.contactBox:hover {
+  background-color: purple;
+}
+/* IMAGE SLIDER */
+.home-slider .swiper-slide{
+  overflow: hidden;
+  border-radius: .5rem;
+  height: 50rem;
+  width:35rem;
+}
+
+.home-slider .swiper-slide img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+
+/* GALLERY PAGE */
+
+.Gallery-Grid {
+  display: grid;
+  grid-template: repeat(12, 200px) / repeat(1, 350px);
+  justify-items: flex-start;
+}
+.GI {
+  width: 98%;
+  height: 96%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .Gallery-Grid {
+    display: grid;
+    grid-template: repeat(7, 200px) / repeat(2, 350px);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Gallery-Grid {
+    display: grid;
+    grid-template: repeat(5, 200px) / repeat(3, 500px);
+  }
+  .image-two {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    width: 98%;
+  }
+}
+
+
+.management{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.memImg{
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+.NameTag{
+  text-align: center;
+  color: #1b0760;
+}
