@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Calendar</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/evo-calendar.min.css">
+</head>
+<body>
+  <nav>
+    <article class="Nav-Bar">
+      <a href="index.html"
+        ><img class="logo" src="IMAGES/logo5.png" alt="logo"
+      /></a>
+      <ul>
+        <a href="index.html">HOME</a>
+      </ul>
+      <ul>
+        <a href="about.html">ABOUT US</a>
+      </ul>
+      <ul>
+        <a href="Registration page.html">REGISTRATION</a>
+      </ul>
+      <ul>
+        <a href="Events.html">EVENTS</a>
+      </ul>
+
+      <ul>
+        <a href="calendar.html">CALENDAR </a>
+      </ul>
+      <ul>
+        <a href="Gallery.html">GALLERY</a>
+      </ul>
+      <ul>
+        <button class="DB">
+          <a
+            class="in-button"
+            href="https://rzp.io/l/TtD0auforb"
+            target="_blank"
+            >DONATE</a
+          >
+        </button>
+      </ul>
+    </article>
+  </nav>
+    <div class="a">
+        <div id="calendar"></div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <script src="evo-calendar.min.js"></script>    
+    <script>
+        $(document).ready(function() {
+    $('#calendar').evoCalendar({
+
+        
+    calendarEvents: [
+      {
+       
+        name: "Food donation drive", 
+        date: "June/3/2021", 
+        type: "event", 
+        // everyYear: true 
+      },
+      {
+        name: "Tree plantation drive",
+        date: "June/18/2021", 
+        type: "event",
+        color: "#63d867" 
+      },
+      {
+       
+       name: "Food donation drive 2.0", 
+       date: "July/4/2021", 
+       type: "event", 
+       description:"Time:12pm"
+       // everyYear: true 
+     },
+     {
+       
+       name: "Indradhanush-art competition", 
+       date: "July/2/2021", 
+       type: "event", 
+       description:"Time:12pm"
+       // everyYear: true 
+     },
+     {
+       
+       name: "Food drive-Meal to heal", 
+       date: "August/4/2021", 
+       type: "event", 
+       description:"Time:12pm"
+       // everyYear: true 
+     },
+     {
+       
+       name: "Indradhanush-essay competition", 
+       date: "August/4/2021", 
+       type: "event", 
+       description:"Time:12pm"
+       // everyYear: true 
+     },
+     {
+       
+       name: "Story of front line warrior fb live series", 
+       date: "August/8/2021", 
+       type: "event", 
+       description:"Time:6pm"
+       // everyYear: true 
+     },
+     {
+       
+       name: "Indradhanush-clay moulding competition", 
+       date: "September/5/2021", 
+       type: "event", 
+       // everyYear: true 
+     },
+     {
+       
+       name: "Indradhanush- Diwali competition", 
+       date: "November/3/2021", 
+       type: "event", 
+       // everyYear: true 
+     },
+     {
+       
+       name: "Food drive-Meal to heal", 
+       date: "November/4/2021", 
+       type: "event", 
+       // everyYear: true 
+     }
+
+    ]
+
+        
+    })
+})
+    </script>
+</body>
+</html>

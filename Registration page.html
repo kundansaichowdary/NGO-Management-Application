@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <nav>
+      <article class="Nav-Bar">
+        <a href="index.html"
+          ><img class="logo" src="IMAGES/logo5.png" alt="logo"
+        /></a>
+        <ul>
+          <a href="index.html">HOME</a>
+        </ul>
+        <ul>
+          <a href="about.html">ABOUT US</a>
+        </ul>
+        <ul>
+          <a href="Registration page.html">REGISTRATION</a>
+        </ul>
+        <ul>
+          <a href="Events.html">EVENTS</a>
+        </ul>
+  
+        <ul>
+          <a href="calendar.html">CALENDAR </a>
+        </ul>
+        <ul>
+          <a href="Gallery.html">GALLERY</a>
+        </ul>
+        <ul>
+          <button class="DB">
+            <a
+              class="in-button"
+              href="https://rzp.io/l/TtD0auforb"
+              target="_blank"
+              >DONATE</a
+            >
+          </button>
+        </ul>
+      </article>
+    </nav>
+    
+    <div class="images">
+      <img class="reg-img" src="Images/form image.png" alt="logo" />
+    </div>
+    <article class="info">
+      <h1>INTERN/VOLUNTEER REGISTRATION FORM</h1>
+      <p>
+        Thank You for showing interest in interning/volunteering for Aparigraha
+        Foundation. We recognize, value and appreciate your efforts and we
+        welcome you to join us on our mission to make this world a better place
+        for everyone, one step at a time. You can choose to either join us as an
+        Intern or as a Volunteer. Our HR team will contact you on WhatsApp after
+        receiving your response and set up an interview.
+      </p>
+      <h3>INTERNSHIP</h3>
+      <li>
+        Interested candidates can chose to apply as an intern for different
+        departments at Aparigraha Foundation.
+      </li>
+      <li>
+        You can choose your starting date and the duration that you would want
+        to work for.
+      </li>
+      <li>
+        You will receive an offer letter if you get selected based on your
+        interview.
+      </li>
+      <li>
+        You will receive an Internship Certificate at the end of your
+        internship.
+      </li>
+      <h3>VOLUNTEER</h3>
+      <li>You can chose to volunteer and help us with our various drives.</li>
+      <li>You will receive a certificate for volunteering.</li>
+      <div class="space"></div>
+    </article>
+    <article class="container">
+      <form action="https://formspree.io/f/mzbykgga" method="POST">
+        <div>
+          <label for="name">Full Name</label><br />
+          <input type="text" name="Name" id="name" required minlength="3" maxlength="50" />
+        </div>
+        <div>
+          <label for="Email">Email ID</label><br />
+          <input type="email" required name="Email" id="Email" minlength="7" maxlength="30" />
+        </div>
+        <div>
+          <label for="pn">Phone Number</label><br />
+          <input
+            type="number"
+            name="Phone Number"
+            required
+            min="0"
+            maxlength="10"
+            id="pn"
+          />
+        </div>
+        <div>
+          <label for="Address">Full Address</label><br />
+          <input type="text" required name="Full Address" id="Address" minlength="3" maxlength="50" />
+        </div>
+        <div>
+          <label for="Aadhar">Adhaar Card No</label><br />
+          <input
+            type="number"
+            name="Adhaar Card No"
+            required
+            min="0"
+            maxlength="12"
+            id="Aadhar"
+          />
+        </div>
+        <div>
+          <label for="Q1"
+            >What is your highest level of qualification[ latest-
+            completed/pursuing]</label
+          ><br />
+          <input type="text" required name="Degree" id="Q1" minlength="3" maxlength="15"/>
+        </div>
+        <div>
+          <label for="Q2"
+            >Do you have any experience in internship/volunteering? If yes -
+            Name of the organisation</label
+          ><br />
+          <input type="text" required name="Experience" id="Q2" minlength="1" maxlength="50" />
+        </div>
+        <div>
+          <label for="IR">Internship role you're applying for</label>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op1" />
+            <label for="op1">Psychology Intern</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op2" />
+            <label for="op2">Social Media Intern</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op3" />
+            <label for="op3">Student Intern</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op4" />
+            <label for="op4">Fund Raiser Intern</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op5" />
+            <label for="op5">Volunteer</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Intern Role" class="radio" id="op6" />
+            <label for="op6">Sales & Marketing Intern</label>
+          </div>
+        </div>
+        <div>
+          <label>Preferred duration for the internship</label>
+          <div class="radio-button">
+            <input type="radio" name="Duration" class="radio" id="op1" />
+            <label for="op1">1 Month</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Duration" class="radio" id="op2" />
+            <label for="op2">3 Months</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Duration" class="radio" id="op3" />
+            <label for="op3">6 Months</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" name="Duration" class="radio" id="op4" />
+            <label for="op4">Or more</label>
+          </div>
+        </div>
+        <div>
+          <label for="date">Preferred starting date for the internship</label
+          ><br />
+          <input type="date" required name="date" id="date" />
+        </div>
+        <div>
+          <label for="Q3">Where did you hear about Aparigraha Foundation?</label
+          ><br />
+          <input
+            type="text"
+            required
+            minlength="3" maxlength="50"
+            name="Where did you hear about Aparigraha Foundation?"
+            id="Address"
+          />
+        </div>
+        <div>
+          <label for="file"
+            >Please attach your latest CV/ Resume with a recent
+            photograph</label
+          ><br />
+          <input
+            type="file"
+            required
+            multiple
+            accept=".pdf,.doc"
+            name="file"
+            id="file"
+          />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </article>
+  </body>
+</html>

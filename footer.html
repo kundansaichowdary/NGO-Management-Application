@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Footer</title>
+
+    <style>
+      .contactGrid {
+        display: grid;
+        grid-template-rows: repeat(2, 170px);
+        grid-template-columns: repeat(2, 300px);
+      }
+      .contactBox {
+        background-color: var(--color-primary);
+        color: white;
+        border: 2px solid white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h4 {
+        margin: 0px;
+      }
+      .contactInfo,
+      .lastPart {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+      .icons {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+      .contactBox:hover{
+        background-color:purple;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <article class="Nav-Bar">
+        <a href="index.html"
+          ><img class="logo" src="IMAGES/logo5.png" alt="logo"
+        /></a>
+        <ul>
+          <a href="index.html">HOME</a>
+        </ul>
+        <ul>
+          <a href="https://www.google.com/">ABOUT US</a>
+        </ul>
+        <ul>
+          <a href="Registration page.html">REGISTRATION</a>
+        </ul>
+        <ul>
+          <a href="https://www.google.com/">OUR MISSION</a>
+        </ul>
+
+        <ul>
+          <a href="Login Page.html">SIGN IN </a>
+        </ul>
+        <ul>
+          <a href="Gallery.html">GALLERY</a>
+        </ul>
+        <ul>
+          <button class="DB">
+            <a
+              class="in-button"
+              href="https://rzp.io/l/TtD0auforb"
+              target="_blank"
+              >DONATE</a
+            >
+          </button>
+        </ul>
+      </article>
+    </nav>
+    <article>
+      <div>
+        <h2 style="text-align: center">Subscribe to receive updates!</h2>
+        <div class="container">
+          <form>
+            <input
+              id="inputEmail"
+              type="email"
+              placeholder="Enter email address..."
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </article>
+
+    <h2 style="text-align: center">CONTACT</h2>
+
+    <section class="contactInfo">
+      <section class="box-1">
+        <article class="contactGrid">
+          <div class="contactBox">
+            <img src="ICONS/address.png" alt="Address" />
+            <h4>Address</h4>
+            <p>
+              Dhananjay 3rd Floor, Glumohar Cross Road No 5, JVPD Scheme,Mumbai 400049
+            </p>
+          </div>
+          <div class="contactBox">
+            <img style="margin-bottom: 10px;" src="ICONS/call us.png" alt="Call us" />
+            <h4>Call Us</h4>
+            <p>9136356135</p>
+          </div>
+          <div class="contactBox">
+            <img src="ICONS/email.png" alt="Email" />
+            <h4>Email Us</h4>
+            <p>aparigrahafoundation@gmail.com</p>
+          </div>
+          <div class="contactBox">
+            <img src="ICONS/working hours.png" alt="Working Hours" />
+            <h4>Working Hours</h4>
+            <p>Mon - Fri: 9AM to 9PM</p>
+          </div>
+        </article>
+      </section>
+      <section class="box-2">
+        <form action="https://formspree.io/f/xzbyqekl" method="POST">
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Your Name"
+              type="text"
+              name="name"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Your Email"
+              type="email"
+              name="email"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              class="FormInput"
+              placeholder="Subject"
+              type="text"
+              name="subject"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="FormInput"
+              placeholder="Message"
+              class="form-control"
+              name="message"
+              rows="5"
+            ></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="center">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </section>
+    <article class="lastPart">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Aparigraha Foundation</span></strong
+        >. All Rights Reserved
+      </div>
+      <div class="socialIcons">
+        <a
+          href="https://www.facebook.com/groups/aparigrahafoundation/"
+          target="_blank"
+          ><img class="icons" src="ICONS/facebook.png" alt=""
+        /></a>
+        <a href="https://twitter.com/AparigrahaF" target="_blank"
+          ><img class="icons" src="ICONS/twitter.png" alt=""
+        /></a>
+        <a
+          href="https://www.instagram.com/aparigrahafoundation/?hl=en"
+          target="_blank"
+          ><img class="icons" src="ICONS/instagram.png" alt=""
+        /></a>
+        <a
+          href="https://www.linkedin.com/company/aparigraha-foundation"
+          target="_blank"
+          ><img class="icons" src="ICONS/linkedin.png" alt=""
+        /></a>
+        <a
+          href="https://www.youtube.com/channel/UCdOiBJOgwauypplWenyniwg"
+          target="_blank"
+          ><img class="icons" src="ICONS/youtube.png" alt=""
+        /></a>
+      </div>
+    </article>
+  </body>
+</html>

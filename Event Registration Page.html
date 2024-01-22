@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+
+  <nav>
+    <article class="Nav-Bar">
+      <a href="index.html"
+        ><img class="logo" src="IMAGES/logo5.png" alt="logo"
+      /></a>
+      <ul>
+        <a href="index.html">HOME</a>
+      </ul>
+      <ul>
+        <a href="about.html">ABOUT US</a>
+      </ul>
+      <ul>
+        <a href="Registration page.html">REGISTRATION</a>
+      </ul>
+      <ul>
+        <a href="Events.html">EVENTS</a>
+      </ul>
+
+      <ul>
+        <a href="calendar.html">CALENDAR </a>
+      </ul>
+      <ul>
+        <a href="Gallery.html">GALLERY</a>
+      </ul>
+      <ul>
+        <button class="DB">
+          <a
+            class="in-button"
+            href="https://rzp.io/l/TtD0auforb"
+            target="_blank"
+            >DONATE</a
+          >
+        </button>
+      </ul>
+    </article>
+  </nav>
+
+  <h1 style="text-align: center;">Event Registration Form</h1>
+  <body>
+    <article class="container">
+        <form>
+          <!-- <form action="https://formspree.io/f/mzbykgga" method="POST"> -->
+          <div>
+            <label>
+              First Name<br />
+              <input type="text" name="First name" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Last Name<br />
+              <input type="text" name="Last name" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Email<br />
+              <input type="email" name="Email" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Phone Number (+91)<br />
+              <input type="number" name="Phone Number" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Telephone (044)<br />
+              <input type="number" name="Telephone" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Address<br />
+              <input type="text" name="Address 1" required />
+              <div>
+                <input type="text" name="Address 2" />
+              </div>
+            </label>
+          </div>
+          <div>
+            <label>
+              City<br />
+              <input type="text" name="City" required />
+            </label>
+          </div>
+          <div>
+            <label>
+              Zip/Postal Code<br />
+              <input type="text" name="Zip Code" required />
+            </label>
+          </div>
+          <div>
+            <h4>Select event of your choice:</h4>
+            <div>
+              To know more about each event, click
+              <a href="Events.html">here</a>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="RButton"
+                name="event"
+                value="Story of Front Line Warriors Series"
+                style="width: 15px"
+              />
+              <label for="event">Story of Front Line Warriors Series FB Live</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="event"
+                value="Meal to Heal"
+                style="width: 15px"
+              />
+              <label for="event"
+                >Meal to Heal - Distribution of Food Drive, Ration Kits, Snack Kits,
+                Masks</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="event"
+                value="Indradhanush"
+                style="width: 15px"
+              />
+              <label for="event">Indradhanush (Cultural Event)</label>
+            </div>
+            <div>
+              <input type="radio" name="event" value="Pragya" style="width: 15px" />
+              <label for="event">Pragya - Training for Teachers and Students</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="event"
+                value="Swach the Unclean"
+                style="width: 15px"
+              />
+              <label for="event">Swach the Unclean - Cleanliness</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="event"
+                value="Root for O2"
+                style="width: 15px"
+              />
+              <label for="event">Root for O2 - Tree Plantation</label>
+            </div>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+            <label></label>
+          </div>
+        </form>
+    </article>
+  </body>
+</html>
